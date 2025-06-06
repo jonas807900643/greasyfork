@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 ruby '2.1.3'
 
-gem 'rails', '4.1.6'
-gem 'rails-i18n', '~> 4.0.0'
+gem 'rails', '7.1.0'
+gem 'rails-i18n', '~> 7.0.1'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -15,23 +15,23 @@ gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.2.2'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 #gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder', '~> 2.0', '>= 2.0.0'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+  gem 'sdoc', '>= 1.0.0', require: false
 end
 
 # Use ActiveModel has_secure_password
@@ -46,36 +46,36 @@ end
 # included by dependency, need a more recent version - https://github.com/JasonBarnabe/greasyfork/issues/245
 gem 'i18n', '>= 0.6.11'
 
-gem 'devise'
+gem 'devise', '>= 4.7.0'
 gem 'devise-i18n'
 gem 'devise-i18n-views', '~> 0.3.1'
 gem 'therubyracer'
 gem 'mysql2'
 gem 'diffy', '~> 3.0.5'
-gem 'sanitize', '~> 3.0.0'
+gem 'sanitize', '~> 3.0.3'
 gem 'newrelic_rpm'
 gem 'will_paginate'
 gem 'will-paginate-i18n'
 gem 'yui-compressor'
-gem 'strip_attributes'
+gem 'strip_attributes', '>= 1.8.1'
 gem 'redcarpet'
-gem 'ignorable'
+gem 'ignorable', '>= 0.3.0'
 gem 'coderay', git: 'git@github.com:JasonBarnabe/coderay.git', branch: 'js-ident-unicode'
-gem 'thinking-sphinx', '~> 3.1.1'
-gem 'ts-delayed-delta', '~> 2.0.2'
-gem 'delayed_job', '~> 4.0.2'
-gem 'delayed_job_active_record', '~> 4.0.1'
+gem 'thinking-sphinx', '~> 3.1.2'
+gem 'ts-delayed-delta', '~> 2.1.0'
+gem 'delayed_job', '~> 4.1.9'
+gem 'delayed_job_active_record', '~> 4.1.5'
 gem 'daemons'
 gem 'public_suffix'
 gem 'transifex-ruby', git: 'git@github.com:tmaesaka/transifex-ruby.git'
 gem 'dalli'
 
-gem 'omniauth'
-gem 'omniauth-github'
-gem 'omniauth-google-oauth2'
+gem 'omniauth', '>= 2.1.0'
+gem 'omniauth-github', '>= 2.0.0'
+gem 'omniauth-google-oauth2', '>= 0.2.6'
 gem 'omniauth-browserid'
 gem 'detect_language'
 gem 'levenshtein'
 
 gem 'byebug', group: [:development, :test]
-gem 'bullet', :group => :development
+gem 'bullet', '>= 4.14.0', :group => :development
