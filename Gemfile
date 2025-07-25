@@ -2,26 +2,26 @@ source 'https://rubygems.org'
 
 ruby '2.1.3'
 
-gem 'rails', '4.1.6'
-gem 'rails-i18n', '~> 4.0.0'
+gem 'rails', '4.1.7'
+gem 'rails-i18n', '~> 4.0.4'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 4.0.4'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.1.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.3'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 #gem 'turbolinks'
@@ -46,13 +46,13 @@ end
 # included by dependency, need a more recent version - https://github.com/JasonBarnabe/greasyfork/issues/245
 gem 'i18n', '>= 0.6.11'
 
-gem 'devise'
+gem 'devise', '>= 3.4.0'
 gem 'devise-i18n'
 gem 'devise-i18n-views', '~> 0.3.1'
 gem 'therubyracer'
 gem 'mysql2'
 gem 'diffy', '~> 3.0.5'
-gem 'sanitize', '~> 3.0.0'
+gem 'sanitize', '~> 3.0.3'
 gem 'newrelic_rpm'
 gem 'will_paginate'
 gem 'will-paginate-i18n'
