@@ -2,26 +2,26 @@ source 'https://rubygems.org'
 
 ruby '2.1.3'
 
-gem 'rails', '4.1.6'
-gem 'rails-i18n', '~> 4.0.0'
+gem 'rails', '5.0.0'
+gem 'rails-i18n', '~> 5.0.0'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 5.0.5'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.1.1'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 #gem 'turbolinks'
@@ -46,7 +46,7 @@ end
 # included by dependency, need a more recent version - https://github.com/JasonBarnabe/greasyfork/issues/245
 gem 'i18n', '>= 0.6.11'
 
-gem 'devise'
+gem 'devise', '>= 4.0.0'
 gem 'devise-i18n'
 gem 'devise-i18n-views', '~> 0.3.1'
 gem 'therubyracer'
@@ -70,9 +70,9 @@ gem 'public_suffix'
 gem 'transifex-ruby', git: 'git@github.com:tmaesaka/transifex-ruby.git'
 gem 'dalli'
 
-gem 'omniauth'
-gem 'omniauth-github'
-gem 'omniauth-google-oauth2'
+gem 'omniauth', '>= 1.3.1'
+gem 'omniauth-github', '>= 1.2.0'
+gem 'omniauth-google-oauth2', '>= 0.2.6'
 gem 'omniauth-browserid'
 gem 'detect_language'
 gem 'levenshtein'
